@@ -1,0 +1,21 @@
+# 只跟踪三个工程文件夹
+/*
+!empty/
+!empty_copy/
+!oled_menu/
+!.gitignore
+
+# 忽略编译产物
+empty/gcc/
+empty/iar/
+empty/keil/
+empty/ticlang/
+empty_copy/gcc/
+empty_copy/iar/
+empty_copy/keil/
+empty_copy/ticlang/
+oled_menu/gcc/
+oled_menu/iar/
+oled_menu/keil/
+oled_menu/ticlang/
+oled_menu/tools/
