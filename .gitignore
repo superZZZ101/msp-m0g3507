@@ -1,21 +1,30 @@
-# 只跟踪三个工程文件夹
-/*
-!empty/
-!empty_copy/
-!oled_menu/
-!.gitignore
+# Keil build artifacts
+*.o
+*.d
+*.axf
+*.hex
+*.htm
+*.lnp
+*.dep
+*.map
+build.log
+Objects/
+JLinkLog.txt
+JLinkSettings.ini
+*.uvguix.*
+*.uvoptx
 
-# 忽略编译产物
-empty/gcc/
-empty/iar/
-empty/keil/
-empty/ticlang/
-empty_copy/gcc/
-empty_copy/iar/
-empty_copy/keil/
-empty_copy/ticlang/
-oled_menu/gcc/
-oled_menu/iar/
-oled_menu/keil/
-oled_menu/ticlang/
-oled_menu/tools/
+# SysConfig generated (root level)
+device_linker.cmd
+device_linker.lds
+device.opt
+device.cmd.genlibs
+device.lds.genlibs
+
+# Tools
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
