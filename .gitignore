@@ -8,23 +8,24 @@
 *.dep
 *.map
 build.log
+build_log.htm
 Objects/
 JLinkLog.txt
 JLinkSettings.ini
 *.uvguix.*
 *.uvoptx
+*.bak
 
-# SysConfig generated (root level)
-device_linker.cmd
-device_linker.lds
-device.opt
-device.cmd.genlibs
-device.lds.genlibs
+# SysConfig generated (root level - not project-specific)
+/device_linker.cmd
+/device_linker.lds
+/device.opt
+/device.cmd.genlibs
+/device.lds.genlibs
 
-# Tools
+# Large binary files
+*.bin
+
+# Python
 __pycache__/
 *.pyc
-
-# IDE
-.vscode/
-.idea/
